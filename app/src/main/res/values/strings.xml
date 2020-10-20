@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calendariodevacinacao</string>
+    <string name="vacinas_aplicadas">Vacinas Aplicadas</string>
+    <string name="vacinas_a_ser_aplicadas">Vacinas a serem aplicadas:</string>
+</resources>
