@@ -69,14 +69,14 @@ public class CadastroActivity extends AppCompatActivity {
                                                 Toast.LENGTH_SHORT).show();
                                         aliasemail.setText("");
                                         aliassenha.setText("");
-                                        aliasbnt.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+                                        //aliasbnt.setOnClickListener(new View.OnClickListener() {
+                                          //  @Override
+                                            //public void onClick(View view) {
                                                 Intent i = new Intent(CadastroActivity.this, ManterCriancaActivity.class);
                                                 startActivity(i);
                                                 finish();
-                                            }
-                                        });
+                                            //}
+                                        //});
                                     } else {
                                         // If sign in fails, display a message to the user.
                                         Toast.makeText(CadastroActivity.this, "Authentication failed.",
