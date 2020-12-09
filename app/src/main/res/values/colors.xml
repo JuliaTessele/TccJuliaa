@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#81C784</color>
     <color name="colorAccent">#B2FAB4</color>
     <color name="secondary_text">#519657</color>
+    <color name="purple_200">#bb86fc</color>
+    <color name="teal_200">#03dac5</color>
+
 </resources>

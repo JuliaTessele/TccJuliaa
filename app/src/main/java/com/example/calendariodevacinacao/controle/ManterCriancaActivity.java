@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,11 +20,6 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.joda.time.DateTime;
-import org.joda.time.format.DateTimeFormat;
-
-import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 
 public class ManterCriancaActivity extends AppCompatActivity {
@@ -48,9 +42,9 @@ public class ManterCriancaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manter_crianca);
 
-        aliasnome = findViewById(R.id.editText);
-        aliasdata_nasc = findViewById(R.id.editText2);
-        aliasbntcrianca = findViewById(R.id.bntcrianca);
+        aliasnome = findViewById(R.id.adicionarEmail);
+        aliasdata_nasc = findViewById(R.id.adicionarSenha);
+        aliasbntcrianca = findViewById(R.id.gerarLogin);
 
 
         crianca = new Crianca();

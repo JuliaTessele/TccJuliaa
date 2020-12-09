@@ -35,10 +35,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        aliasemail = findViewById(R.id.editemail);
-        aliassenha = findViewById(R.id.editsenha);
-        aliaslink2 = findViewById(R.id.textview);
-        aliasbntlogin = findViewById(R.id.bntinlogin);
+        aliasemail = findViewById(R.id.adicionarEmail);
+        aliassenha = findViewById(R.id.adicionarSenha);
+       // aliaslink2 = findViewById(R.id.textview);
+        aliasbntlogin = findViewById(R.id.gerarLogin);
 
         aliasbntlogin.setOnClickListener(new View.OnClickListener() {
             @Override
