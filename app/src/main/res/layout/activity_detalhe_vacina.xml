@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetalheVacina">
+    tools:context=".HomeActivity">
 
 
     <LinearLayout
@@ -22,19 +22,19 @@
             android:fontFamily="@font/roboto"
             android:text="Erothides Neves"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#00000" />
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/nomeVacinaDetalhe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:laywrout_gravity="left"
+            android:layout_gravity="left"
             android:layout_marginTop="14dp"
             android:layout_marginLeft="16dp"
             android:fontFamily="@font/roboto_medium"
             android:text="Nome da Vacina"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#00000"
+            android:textColor="@color/black"
             android:textSize="24sp" />
 
 
@@ -48,11 +48,10 @@
                 android:id="@+id/descricaoVacina"
                 android:drawableLeft="@drawable/ic_baseline_short_text_24"
                 android:drawablePadding="16dp"
-                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:laywrout_gravity="left"
+                android:layout_gravity="left"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="12sp" />
@@ -73,7 +72,7 @@
                 android:layout_width="99dp"
                 android:layout_height="33dp"
                 android:fontFamily="@font/roboto_mono"
-                android:laywrout_gravity="left"
+                android:layout_gravity="left"
                 android:text="NOVEMBRO 2020"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="12sp"
