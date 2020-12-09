@@ -39,7 +39,7 @@ public class CalendarioView extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendario_view);
+        //setContentView(R.layout.activity_calendario_view);
         aliascdata_nasc =findViewById(R.id.editText2);
 
 
