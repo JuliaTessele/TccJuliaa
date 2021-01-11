@@ -16,6 +16,7 @@ import com.example.calendariodevacinacao.FirebaseConex.Conexao;
 import com.example.calendariodevacinacao.controle.ManterCriancaActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,8 +25,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-    EditText aliasemail;
-    EditText aliassenha;
+    TextInputEditText aliasemail;
+    TextInputEditText aliassenha;
     Button aliasbntlogin;
     TextView aliaslink2;
     private FirebaseAuth auth;

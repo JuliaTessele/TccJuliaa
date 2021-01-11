@@ -14,16 +14,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.calendariodevacinacao.controle.ManterCriancaActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class CadastroActivity extends AppCompatActivity {
 
-    EditText aliasemail;
-    EditText aliassenha;
+    TextInputEditText aliasemail;
+    TextInputEditText aliassenha;
     Button aliasbnt;
-    TextView aliaslink;
+  //  TextView aliaslink;
     FirebaseAuth firebaseAuth;
 
     @Override
@@ -33,10 +34,10 @@ public class CadastroActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        aliasemail = findViewById(R.id.editemail);
-        aliassenha = findViewById(R.id.editsenha);
-        aliaslink = findViewById(R.id.textView2);
-        aliasbnt = findViewById(R.id.bntinscrever);
+        aliasemail = findViewById(R.id.criarEmail);
+        aliassenha = findViewById(R.id.criarSenha);
+      //  aliaslink = findViewById(R.id.textView2);
+         aliasbnt = findViewById(R.id.gerarCadastro);
 
         aliasbnt.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -14,6 +14,7 @@ import com.example.calendariodevacinacao.HomeActivity;
 import com.example.calendariodevacinacao.R;
 import com.example.calendariodevacinacao.modelo.Crianca;
 import com.example.calendariodevacinacao.modelo.Responsavel;
+import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,7 +25,7 @@ import java.util.UUID;
 
 public class ManterCriancaActivity extends AppCompatActivity {
 
-    EditText aliasnome, aliasdata_nasc;
+    TextInputEditText aliasnome, aliasdata_nasc;
     Button aliasbntcrianca;
     Crianca crianca;
     Responsavel responsavel;
@@ -42,9 +43,9 @@ public class ManterCriancaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manter_crianca);
 
-        aliasnome = findViewById(R.id.adicionarEmail);
-        aliasdata_nasc = findViewById(R.id.adicionarSenha);
-        aliasbntcrianca = findViewById(R.id.gerarLogin);
+        aliasnome = findViewById(R.id.adicionarcrianca);
+        aliasdata_nasc = findViewById(R.id.adicionarDataNascimento);
+        aliasbntcrianca = findViewById(R.id.gerar);
 
 
         crianca = new Crianca();
