@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     TextInputEditText aliasemail;
-    TextInputEditText aliassenha;
+    EditText aliassenha;
     Button aliasbntlogin;
     TextView aliaslink2;
     private FirebaseAuth auth;
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         aliasemail = findViewById(R.id.adicionarEmail);
-        aliassenha = findViewById(R.id.adicionarSenha);
+        aliassenha = findViewById(R.id.criarsenha);
        // aliaslink2 = findViewById(R.id.textview);
         aliasbntlogin = findViewById(R.id.gerarLogin);
 

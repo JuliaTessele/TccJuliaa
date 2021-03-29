@@ -40,7 +40,7 @@ public class CalendarioView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_calendario_view);
-        aliascdata_nasc =findViewById(R.id.editText2);
+       // aliascdata_nasc =findViewById(R.id.editText2);
 
 
         SimpleDateFormat formatadorBr = new SimpleDateFormat("dd/MM/yyyy");

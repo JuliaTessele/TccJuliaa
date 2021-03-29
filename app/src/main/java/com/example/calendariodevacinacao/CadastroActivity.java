@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class CadastroActivity extends AppCompatActivity {
 
     TextInputEditText aliasemail;
-    TextInputEditText aliassenha;
+    EditText aliassenha;
     Button aliasbnt;
   //  TextView aliaslink;
     FirebaseAuth firebaseAuth;
@@ -30,12 +30,12 @@ public class CadastroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adicionar_crianca);
+        setContentView(R.layout.activity_cadastro);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
         aliasemail = findViewById(R.id.criarEmail);
-        aliassenha = findViewById(R.id.criarSenha);
+        aliassenha = findViewById(R.id.senha);
       //  aliaslink = findViewById(R.id.textView2);
          aliasbnt = findViewById(R.id.gerarCadastro);
 

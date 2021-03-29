@@ -33,7 +33,7 @@
             android:hint="Email"
             android:textColor="@color/black"
             app:boxStrokeColor="@color/purple_200"
-            app:startIconDrawable="@drawable/ic_baseline_child_care_24">
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/adicionarEmail"
@@ -51,14 +51,17 @@
             android:hint="Senha"
             android:textColor="@color/black"
             app:boxStrokeColor="@color/purple_200"
-            app:startIconDrawable="@drawable/ic_round_calendar_today_24">
+           >
 
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/adicionarSenha"
+            <EditText
+                android:id="@+id/criarsenha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxStrokeColor="@color/purple_200" />
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPassword" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
 

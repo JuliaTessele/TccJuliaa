@@ -54,7 +54,7 @@ public class ManterCriancaActivity extends AppCompatActivity {
         user = auth.getCurrentUser();
         final String a = user.getUid();
         inicializarFirebase();
-        eventoDatabase();
+       // eventoDatabase();
 
         aliasbntcrianca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +75,7 @@ public class ManterCriancaActivity extends AppCompatActivity {
 
 
                 Toast.makeText(ManterCriancaActivity.this, "SALVO COM SUCESSO", Toast.LENGTH_LONG).show();
+
                 Intent inthome = new Intent(ManterCriancaActivity.this, HomeActivity.class);
                 startActivity(inthome);
 
@@ -86,8 +87,8 @@ public class ManterCriancaActivity extends AppCompatActivity {
 
     }
 
-    private void eventoDatabase() {
-    }
+   // private void eventoDatabase() {
+   // }
 
     private void inicializarFirebase() {
         FirebaseApp.initializeApp(ManterCriancaActivity.this);

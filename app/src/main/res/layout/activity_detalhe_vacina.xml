@@ -25,7 +25,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/nomeVacinaDetalhe"
+            android:id="@+id/nomecrianca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
@@ -87,7 +87,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
         android:layout_gravity="right"
-        android:id="@+id/aplicarVacina"
+        android:id="@+id/logout"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
